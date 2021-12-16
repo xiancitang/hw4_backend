@@ -14,7 +14,7 @@ import javax.persistence.Table;
 // POJO class, represent Student table in database, STUDENTID is primary key, 
 // each attribute corresponding to a table column; each instance is a row
 @Entity
-@Table(name="student",schema="XTANG7")
+@Table(name="student",schema="yourSchema")
 public class Student {
 	@Id
 	private String studentid;
